@@ -53,9 +53,9 @@ PRODUCT_COPY_FILES += \
 
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
-TARGET_BOOTANIMATION_HALF_RES := true
+# TARGET_SCREEN_HEIGHT := 1920
+# TARGET_SCREEN_WIDTH := 1080
+# TARGET_BOOTANIMATION_HALF_RES := true
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -194,9 +194,9 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.oneplus2
 
 # LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-legacymm \
-    vendor.lineage.livedisplay@2.0-service-sysfs
+# PRODUCT_PACKAGES += \
+#     vendor.lineage.livedisplay@2.0-service-legacymm \
+#     vendor.lineage.livedisplay@2.0-service-sysfs
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -272,12 +272,12 @@ PRODUCT_PACKAGES += \
     tinyplay
 
 # Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.oneplus2
+# PRODUCT_PACKAGES += \
+#     vendor.lineage.touch@1.0-service.oneplus2
 
 # Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
+# PRODUCT_PACKAGES += \
+#    vendor.lineage.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \
